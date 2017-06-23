@@ -80,4 +80,4 @@ describe('Game', function() {
   });
 
 
-})//end of describe block
+})
