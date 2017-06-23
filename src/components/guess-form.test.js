@@ -33,5 +33,4 @@ describe('Guess Form', function() {
     expect(callback).toHaveBeenCalledWith(value);
   });
 
-
-})//end of describe block
+})
