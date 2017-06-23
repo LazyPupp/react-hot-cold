@@ -1,6 +1,7 @@
 import React from 'react';
 import {shallow,mount} from 'enzyme';
 import Headers from './header';
+import TopNav from './top-nav'
 
 describe('Testing headers.js',function(){
   it('Smoke Test',function(){
@@ -38,10 +39,4 @@ describe('Testing headers.js',function(){
     expect(wrapper.contains(<h1>HOT or COLD</h1>)).toEqual(true);
   });
 
-  // it('Testing if the newGame callback function works',function(){
-  //   const callback = jest.fn();
-  //   const wrapper = mount(<Headers onNewGame={callback}/>);
-  //   wrapper.find('TopNav').simulate('click');
-  //   expect(callback).toHaveBeenCalled();
-  // })
 });
